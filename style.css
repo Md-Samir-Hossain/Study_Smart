@@ -32,8 +32,6 @@
 
 body{
     height: 100%;
-    /* width: 100%; */
-    /* padding: 1rem; */
     background-color: var(--background-color);
 }
 /* -------------------------------------------------------------------Nav bar  */
@@ -95,7 +93,10 @@ nav{
     display: none;
     padding: 0.5rem;
 }
-
+.menu-button:focus{
+    border: solid 1px gray;
+    border-radius: 3px;
+}
 .menu-icon{
     height: 1rem;
 }
